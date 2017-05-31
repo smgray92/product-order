@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+    <title>Product Order</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Purchase Form</h2>
+      <p>Please fill out the following information to complete the purchase</p>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input id="firstname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input id="lastname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="baddres">Billing Address</label>
+            <input id="baddress" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="saddress">Shipping Address</label>
+            <input id="saddress" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Place Order</button>
+        </form>
+
+      </div>
+      <div id="orderreview">
+        <h3>Thank you for your purchase! Your order has been placed</h3>
+        <h4>Review your order</h4>
+        <p>Name: <span class="firstname"></span>< span class="lastname"></span></p>
+        <p>Billing Address: <span class="baddress"></span></p>
+        <p>Shipping Address: <span class="saddress"></span></p>
+
+      </div>
+
+    </div>
+
+
+  </body>
+  </html>
